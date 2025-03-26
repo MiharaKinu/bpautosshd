@@ -9,7 +9,7 @@
 需要你开启服务器的证书登录，一旦尝试登录出错，执行此脚本将直接封锁IP（但支持白名单方式），一旦误封锁，在云服务器上采取VNC登录，然后执行下列命令解封你的IP：
 
 ```bash
-ufw delete allow from <ip>
+sudo ufw delete deny from <ip>
 ```
 
 ## 功能特点
