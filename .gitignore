@@ -1,0 +1,14 @@
+# Python开发环境
+.venv/
+__pycache__/
+*.py[cod]
+
+# 本地配置文件
+config.yaml
+
+# IDE配置
+.vscode/
+
+dist/
+build/
+*.spec
